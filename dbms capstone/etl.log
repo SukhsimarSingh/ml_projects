@@ -1,0 +1,26 @@
+14-Oct-22 01:56:20 - INFO - ==== ETL Pipeline Starts ====
+14-Oct-22 01:56:20 - INFO - >>>Extracting data from file <<<<
+14-Oct-22 01:56:20 - INFO - >>> Extraction completed <<<<
+14-Oct-22 01:56:20 - INFO - >>>>>Transforming data to required formats<<<<<
+14-Oct-22 01:56:20 - INFO - >>>>>Transformation Completed<<<<<
+14-Oct-22 01:56:20 - INFO - Connecting to DB
+14-Oct-22 01:56:20 - INFO - package: mysql.connector.plugins
+14-Oct-22 01:56:20 - INFO - plugin_name: caching_sha2_password
+14-Oct-22 01:56:20 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+14-Oct-22 01:56:20 - INFO - >>>>>> DB Connection Successful <<<<<<<<<<<
+14-Oct-22 01:56:20 - INFO - >>>>>>>>>>>>Loading Data into tables<<<<<<<<<<<<<
+14-Oct-22 01:56:20 - INFO - ===> 1 rows inserted into `country_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 3 rows inserted into `customer_segment_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 4 rows inserted into `shiping_mode_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 3 rows inserted into `category_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 4 rows inserted into `region_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 17 rows inserted into `sub_category_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 49 rows inserted into `state_details` table.
+14-Oct-22 01:56:20 - INFO - ===> 4 rows inserted into `regional_manager_details` table.
+14-Oct-22 01:56:21 - INFO - ===> 1862 rows inserted into `product_details` table.
+14-Oct-22 01:56:21 - INFO - ===> 631 rows inserted into `city_details` table.
+14-Oct-22 01:56:21 - INFO - ===> 793 rows inserted into `customer_details` table.
+14-Oct-22 01:56:23 - INFO - ===> 5009 rows inserted into `order_details` table.
+14-Oct-22 01:56:25 - INFO - ===> 9993 rows inserted into `sales_details` table.
+14-Oct-22 01:56:25 - INFO - >>>>>>>>>>>>>>Loading COMPLETED<<<<<<<<<<<<<<<<
+14-Oct-22 01:56:25 - INFO - XXXXXXXXXXXXXXXXXX === PIPELINE ENDS === XXXXXXXXXXXX
